@@ -1,0 +1,180 @@
+
+    body{
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #ddd;
+
+    }
+                     /* Header start */
+    header{
+        width: 100%;
+        background-color: black;
+        color: white;
+        display: flex;
+       
+    }
+    .logo{
+             font-family: Arial, Helvetica, sans-serif;
+             font-size: 20px;
+             font-weight: bold;
+             margin-left: 20px;
+             padding: 20px;
+             margin-top: 10px;
+             opacity: ;
+             margin: 0 auto;
+             color: aqua;
+             
+    }
+    .logo:hover{
+       font-display: none;
+       color: #262626;
+    }
+    .ass{
+         opacity:0;
+    }
+    .ass:hover{
+     color: green;
+     transition: all 0.5s ease-in;
+     transform:scale(2);
+     opacity: 1;
+     cursor:grab;
+    }
+    .navbar{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 350px;
+        margin-right: 10px;
+    }
+    .navbar ul{
+        list-style: none;
+        
+
+    }
+    .navbar ul li{
+        background-color: #262626;
+        width: 170px;
+        border: 1px solid #fff;
+        height: 50px;
+        text-align: center;
+        float: left;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 50px;
+        position: relative;
+        viewport-fit: flex;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+
+    }
+    .navbar ul li:hover{
+        background-color: crimson;
+        transition: all ease-in 0.7s;
+
+    }
+    .navbar ul ul{
+        display: none;
+
+    }
+    .navbar ul li:hover>ul{
+        display: block;
+
+    }
+    .serv{
+        margin-left: -40px;
+    }
+                    
+                   /* Header end */
+                     /* Form start */
+.form1{
+    text-align: center;
+    background-color: crimson;
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 35px;
+    padding: 40px 80px;
+    border-radius: 5%;
+    }
+.form1 input{
+    border-radius: 50px;
+    padding: 5px 50px;
+    border-color: crimson;
+}
+.form1 .btn{
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 15px;
+    padding:5px 30px ;
+}
+.form1:hover{
+    background-color: forestgreen;
+    transition: all 0.2s ease-in;
+    
+}
+.form1:hover input{
+    color:rgb(11, 14, 201)}
+
+
+.form1 .email{
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+                       /* Form end */
+                    /* Footer start */
+    footer{
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+        background-color: #262626;
+        color: #ddd;
+        text-align: center;
+        }
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+    }                 
+    p{
+        text-align: center;
+        margin: 0 auto;
+        width: 600px;
+        position: relative;
+        margin-top: -30px;
+    }
+    .icon i{
+        font-size: 30px;
+        margin:20px 6px;
+    }
+    .copy{
+        background-color: black;
+        height: 30px;
+        line-height: 50px;
+        height: 50px;
+        font-size: 20px;
+    }            /* Footer end */
+    st
+    @media screen and (max-width: 768px) {
+        body{
+            background-color: brown;
+            
+        }
+        footer background: none;
+        
+    }
