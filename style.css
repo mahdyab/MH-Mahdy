@@ -1,4 +1,4 @@
-
+ 
     body{
 
         margin: 0;
@@ -25,22 +25,23 @@
              opacity: ;
              margin: 0 auto;
              color: aqua;
-             
+             cursor:grab;
     }
-    .logo:hover{
-       font-display: none;
-       color: #262626;
+    .logo:hover .ass{
+      color:green;
+      opacity: 1;
+      
+      transition: all 0.5s ease-in;
+      transform: scale(1.5);
     }
     .ass{
          opacity:0;
+         font-size:small;
+         margin-top: 10px;
     }
-    .ass:hover{
-     color: green;
-     transition: all 0.5s ease-in;
-     transform:scale(2);
-     opacity: 1;
-     cursor:grab;
-    }
+   
+     
+    
     .navbar{
         display:flex;
         justify-content: center;
@@ -130,22 +131,66 @@
 }
 
 
+.flag{
+    height: 200px;
+    width: 300px;
+    background-color: green;
+    position: absolute;
+   margin-top: 40px;
+    margin-left: 50px;
+    
 
-
-
-
+}
+.sq{ height: 170px;
+    width: 170px;
+    background-color: wheat;
+   
+   position: relative;
+   margin-top: 10px;
+   margin-left: 60px;
+   border-radius: 90px;
+   background-color: red;
+}
+ .sqtext{
+     font-size: x-large;
+     position: absolute;
+     text-align: center;
+     justify-content: center;
+     margin-top: 70px;
+     margin-left: 10px;
+     text-decoration: double;
+    opacity: 0;
+ 
+    } 
+    .flag:hover{
+        background-color:greenyellow;
+       color: rgb(67, 49, 170);
+    } 
+    .flag:hover .sq{
+        background-color:white;
+        box-shadow: #b81818;
+        border-color: #b81818;
+        box-sizing: border-box;
+        border-width: 5px;
+        border-color: #b81818;
+        border-style: solid;
+    }
+    .flag:hover .sqtext{
+     opacity: 1;
+    }
+    
 
 
                        /* Form end */
                     /* Footer start */
     footer{
-        bottom: 0;
+        bottom: 0px;
         position: absolute;
         width: 100%;
         background-color: #262626;
         color: #ddd;
         text-align: center;
-        }
+        padding-top: -20px;}
     h2{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 50px;
@@ -169,12 +214,4 @@
         height: 50px;
         font-size: 20px;
     }            /* Footer end */
-    st
-    @media screen and (max-width: 768px) {
-        body{
-            background-color: brown;
-            
-        }
-        footer background: none;
-        
-    }
+   
