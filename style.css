@@ -100,7 +100,7 @@
     text-align: center;
     background-color: crimson;
     height: fit-content;
-    width: fit-content;
+    width: 50%;
     margin: 0 auto;
     margin-top: 35px;
     padding: 40px 80px;
@@ -133,7 +133,7 @@
 
 .flag{
     height: 200px;
-    width: 300px;
+    width: 50%;
     background-color: green;
     position: absolute;
    margin-top: 40px;
