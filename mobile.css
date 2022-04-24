@@ -1,28 +1,227 @@
 
- header{
-   
-    background-color:rgba(165, 94, 94, 0.3);
-    color: rgb(17, 5, 5);
-   display: block;
-    
+    body{
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #ddd;
+
+    }
+                     /* Header start */
+    header{
+        width: 100%;
+        height: 25%;
+        background-color: rgb(110, 57, 172);
+        color: white;
+        display: inline-block;
+       
     }
     .logo{
-        width: 10%;
-        margin-left: 0;
+             font-family: Arial, Helvetica, sans-serif;
+             font-size: 20px;
+             font-weight: bold;
+             margin-left: 20px;
+             padding: 20px;
+             margin-top: 10px;
+             opacity: ;
+             margin: 0 auto;
+             color: aqua;
+             cursor:grab;
     }
-        .navbar{
-            
-            
-            display: block;
-            height: 70%;
-            width: 70%;
-            margin-left: -100px;
-            margin-top: -120px;
-           
-
-
-        }
-
-       
-        
+    .logo:hover .ass{
+      color:green;
+      opacity: 1;
       
+      transition: all 0.5s ease-in;
+      transform: scale(1.5);
+    }
+    .ass{
+         opacity:0;
+         font-size:small;
+         margin-top: 10px;
+    }
+   
+     
+    
+    .navbar{
+        display:inline-block;
+        justify-content: center;
+        align-items: baseline;
+        padding-left: 370px;
+        margin-top: 0px;
+        width: 100px;
+        height:100px ;
+        padding-top: ;
+        padding: ;
+       margin-right: 5px;
+       position: relative;
+    }
+    .navbar ul{
+        list-style: none;
+        width: 10px;
+        margin-right: -10px;
+        margin-top: -80px;
+        align-items: center;
+    }
+    .navbar ul li{
+        background-color: #262626;
+        width: 90px;
+        border: 1px solid #fff;
+        height: 30px;
+        text-align: center;
+        float: inline-end;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 30px;
+        position: relative;
+        viewport-fit: flex; 
+        font-size: small;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0px;
+
+    }
+    .navbar ul li:hover{
+        background-color: crimson;
+        transition: all ease-in 0.7s;
+
+    }
+    .navbar ul ul{
+        display: none;
+
+    }
+    .navbar ul li:hover>ul{
+        display: block;
+
+    }
+    .serv{
+        margin-left: -40px;
+    }
+                    
+                   /* Header end */
+                     /* Form start */
+.form1{
+    text-align: center;
+    background-color: crimson;
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 35px;
+    padding: 40px 80px;
+    border-radius: 5%;
+    }
+.form1 input{
+    border-radius: 50px;
+    padding: 5px 50px;
+    border-color: crimson;
+}
+.form1 .btn{
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 15px;
+    padding:5px 30px ;
+}
+.form1:hover{
+    background-color: forestgreen;
+    transition: all 0.2s ease-in;
+    
+}
+.form1:hover input{
+    color:rgb(11, 14, 201)}
+
+
+.form1 .email{
+    color: aliceblue;
+}
+
+
+.flag{
+    height: 200px;
+    width: 300px;
+    background-color: green;
+    position: absolute;
+   margin-top: 40px;
+    margin-left: 50px;
+    
+
+}
+.sq{ height: 170px;
+    width: 170px;
+    background-color: wheat;
+   
+   position: relative;
+   margin-top: 10px;
+   margin-left: 60px;
+   border-radius: 90px;
+   background-color: red;
+}
+ .sqtext{
+     font-size: x-large;
+     position: absolute;
+     text-align: center;
+     justify-content: center;
+     margin-top: 70px;
+     margin-left: 10px;
+     text-decoration: double;
+    opacity: 0;
+ 
+    } 
+    .flag:hover{
+        background-color:greenyellow;
+       color: rgb(67, 49, 170);
+    } 
+    .flag:hover .sq{
+        background-color:white;
+        box-shadow: #b81818;
+        border-color: #b81818;
+        box-sizing: border-box;
+        border-width: 5px;
+        border-color: #b81818;
+        border-style: solid;
+    }
+    .flag:hover .sqtext{
+     opacity: 1;
+    }
+    
+
+
+                       /* Form end */
+                    /* Footer start */
+    footer{
+        bottom: 0px;
+        position: absolute;
+        width: 100%;
+        background-color: #262626;
+        color: #ddd;
+        text-align: center;
+        padding-top: -20px;}
+    h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+    }                 
+    p{
+        text-align: center;
+        margin: 0 auto;
+        width: 600px;
+        position: relative;
+        margin-top: -30px;
+    }
+    .icon i{
+        font-size: 30px;
+        margin:20px 6px;
+    }
+    .copy{
+        background-color: black;
+        height: 30px;
+        line-height: 50px;
+        height: 50px;
+        font-size: 20px;
+    }            /* Footer end */
+   
