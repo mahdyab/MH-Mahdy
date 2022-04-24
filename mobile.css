@@ -1,4 +1,4 @@
-
+ 
     body{
 
         margin: 0;
@@ -77,13 +77,14 @@
 
     }
     .navbar ul ul{
-        display:block ;
+        display:none;
 
     }
-    /* .navbar ul li:hover>ul{
+    .navbar ul li:hover>ul{
         display: block;
 
-    } */
+    }
+    
     .serv {
         border-style: none;
        
@@ -123,57 +124,103 @@ padding-left: 0px;
                    /* Header end */
                      /* Form start */
 .form1{
-    text-align: center;
+    text-align:center;
     background-color: crimson;
-    height: fit-content;
-    width: fit-content;
-    margin: 0 auto;
-    margin-top: 35px;
-    padding: 40px 80px;
+    height: 100px;
+    width: 140px;
+    margin-right: 70px;
+    margin-top: 15px;
+    margin-bottom: -20px;
+    padding: 40px 50px;
     border-radius: 5%;
+   position:relative;
+    
+  
+   
     }
-.form1 input{
+/* .form1 input{
     border-radius: 50px;
-    padding: 5px 50px;
+  
     border-color: crimson;
+ 
+ width: 100px;
+  
+} */
+ #email {
+  position: relative;
+margin-left: 0px;
+width: 100px;
 }
-.form1 .btn{
+
+#pass{
+    width: 100px;
+    position: relative;
+    margin-left: 0px;
+
+}
+.manna{
+    position: relative;
+  background-color: rgb(163, 30, 30);
+   width: 200px;
+   margin-left: -25px;
+}
+
+
+
+.btn{
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 12px;
+   position: relative;
+   
+  
+   width: fit-content;
+   height: 25px;
+   align-items: center;
+padding-right: 50px;
+}
+
+ .btn1{
     font-weight: bold;
     margin-top: 10px;
-    font-size: 15px;
-    padding:5px 30px ;
+    font-size: 12px;
+   position: relative;
+   align-items: center;
+  margin-left: 0px;
+   width: 2px;
+   height: 25px;
+  padding-left: 0px;
+  text-align: center;
 }
-.form1:hover{
-    background-color: forestgreen;
-    transition: all 0.2s ease-in;
-    
+#insaallah{
+   
+  float: left;
+  height: 50px;
+  width: 200px;
+  display: flex;
+  margin-left: -25px;
+   
 }
-.form1:hover input{
-    color:rgb(11, 14, 201)}
 
-
-.form1 .email{
-    color: aliceblue;
-}
 
 
 .flag{
-    height: 200px;
-    width: 300px;
+    height: 90px;
+    width: 160px;
     background-color: green;
     position: absolute;
    margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 0px;
     
 
 }
-.sq{ height: 170px;
-    width: 170px;
+.sq{ height: 70px;
+    width: 70px;
     background-color: wheat;
    
    position: relative;
    margin-top: 10px;
-   margin-left: 60px;
+   margin-left: 40px;
    border-radius: 90px;
    background-color: red;
 }
