@@ -4,105 +4,121 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        background-color: #ddd;
+        background-color: #ddd;}
 
-    }
-                     /* Header start */
-    header{
-        width: 100%;
-        height: 25%;
-        background-color: rgb(110, 57, 172);
-        color: white;
-        display: inline-block;
-       
-    }
+ /* Header start */
+         header{
+              width: 100%;
+              background-color: black;
+              color: white;
+             display: flex;}
+
     .logo{
              font-family: Arial, Helvetica, sans-serif;
-             font-size: 20px;
+             font-size: 10px;
              font-weight: bold;
              margin-left: 20px;
              padding: 20px;
              margin-top: 10px;
-             opacity: ;
-             margin: 0 auto;
+             opacity:1 ;
+            
              color: aqua;
              cursor:grab;
+             width: 20px;
+           padding-right: 0px;
+          
+            
     }
-    .logo:hover .ass{
-      color:green;
-      opacity: 1;
-      
-      transition: all 0.5s ease-in;
-      transform: scale(1.5);
-    }
-    .ass{
-         opacity:0;
-         font-size:small;
-         margin-top: 10px;
-    }
-   
-     
-    
-    .navbar{
-        display:inline-block;
-        justify-content: center;
-        align-items: baseline;
-        padding-left: 370px;
-        margin-top: 0px;
-        width: 100px;
-        height:100px ;
-        padding-top: ;
-        padding: ;
-       margin-right: 5px;
-       position: relative;
+   .navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    margin-right: 10px;
+    width: 700px;
     }
     .navbar ul{
         list-style: none;
-        width: 10px;
-        margin-right: -10px;
-        margin-top: -80px;
-        align-items: center;
+        
     }
     .navbar ul li{
         background-color: #262626;
-        width: 90px;
+        width: 20px;
         border: 1px solid #fff;
-        height: 30px;
-        text-align: center;
-        float: inline-end;
+        height: 20px;
+        text-align: right;
+        float:left;
         color: white;
         font-weight: bold;
         text-transform: uppercase;
-        line-height: 30px;
+        line-height: 20px;
         position: relative;
         viewport-fit: flex; 
         font-size: small;
+        padding-left: 10px;
+       padding-right: 60px;
+       
+       
     }
     .navbar ul li a{
         text-decoration: none;
         color: white;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        margin-top: 0px;
-
+        position: relative;
+       justify-content: left;
+       font-size: small;
+        font-style: italic;
+        word-spacing: none;
+        letter-spacing: 0px;
+        margin-left: 0px;
     }
     .navbar ul li:hover{
         background-color: crimson;
-        transition: all ease-in 0.7s;
+        transition: all ease-in 1s;
 
     }
     .navbar ul ul{
-        display: none;
+        display:block ;
 
     }
-    .navbar ul li:hover>ul{
+    /* .navbar ul li:hover>ul{
         display: block;
 
+    } */
+    .serv {
+        border-style: none;
+       
+        width: 109px;
+       font-style: italic;
+       height: 1000px;
+       position: absolute;
+       line-height: 40px;
+       line-break: 30px;
+       display: block;
+      margin-left: -50px;
+     
     }
-    .serv{
-        margin-left: -40px;
+    .serv li{
+    width: 70px;
+    height: 100px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+font-size: 5px;
+
+
+
+
     }
+    .navbar .swd{
+width: 60px;
+padding-left: 0px;
+
+}
+
+
+
+
+
+
                     
                    /* Header end */
                      /* Form start */
@@ -193,7 +209,7 @@
 
                        /* Form end */
                     /* Footer start */
-    footer{
+      footer{
         bottom: 0px;
         position: absolute;
         width: 100%;
@@ -222,6 +238,6 @@
         height: 30px;
         line-height: 50px;
         height: 50px;
-        font-size: 20px;
-    }            /* Footer end */
+        font-size: 20px; }
+               /* Footer end */
    
